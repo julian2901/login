@@ -71,7 +71,7 @@ export default function App() {
     <View style={styles.container}>
       {isLoggedIn ? (
         <>
-          <Text>bienvenido a sus registros, { loginUsername } !</Text>
+          <Text>                 Bienvenido a sus Registros, { loginUsername } !             </Text>
           <Button title=" Salir " onPress={handleLogout}/>
           <View style={styles.createUserForm}>
             <Text style={styles.formTitle}>Crear Nuevo Usuario </Text>
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#fff',
+    backgroundColor: '#98D4F9',
   },
   input: {
     height: 40,
@@ -166,3 +166,4 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
+
